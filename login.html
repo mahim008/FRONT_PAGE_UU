@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .container {
+            background-color: lightblue;
+        }
+        .reg {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            position: center;
+            background-color: burlywood;
+            padding: 2%;
+        }
+        .intro {
+            display: flex;
+            justify-content: center;
+            font-weight: 900;
+            font-size: xx-large;
+            background-image: url('UU.jpg');
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p class="intro" style="display: flex; justify-content: center; text-align: center; height: 250px; width: 100%;">
+        Online Judge by Uttara University <br>
+        Welcome to Login Page! <br>
+    </p>
+    
+
+    <div class="reg" style="display: flex; justify-content: center; height: 250px; width: 100%;">
+    <form>
+
+        <label for="email">Email : &Tab;</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Password : &Tab;</label>
+        <input type="password" name="password" id="password"><br>
+
+        <input type="checkbox" id="remember" name="remember" value="Remember Me">
+        <label for="remember"> Remember me</label><br>
+    
+        &Tab;&Tab;<input type="submit" value="Login Now!">
+      </form>
+    </div>
+    <p style="display: flex;justify-content: center;text-align: center; font-size: x-large;">New here? <br><a href="registration.html" target="_blank">Register Here!</a></p>
+    </div>
+</body>
+</html>
